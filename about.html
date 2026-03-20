@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Hire Me</title>
+    <link rel="stylesheet" href="saksham wesite/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <a id="discord-link" href="https://discord.com/users/1369314213306044568" target="_blank" class="discord-icon" title="Contact on Discord">
+        <i class="fab fa-discord"></i>
+    </a>
+
+    <a id="fiverr-link" href="https://www.fiverr.com/s/jjz5BVv" target="_blank" class="fiverr-icon" title="Hire me on Fiverr">
+        <i class="fab fa-fiverr"></i>
+    </a>
+
+    <!-- Dark Mode Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" title="Toggle Dark/Light Mode">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="nav-link">Videos</a>
+            <a href="about.html" class="nav-link active">About Me</a>
+        </div>
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <div class="container">
+        <section class="about-section">
+            <div class="about-header">
+                <h1 class="about-title">About Me</h1>
+                <p class="about-subtitle">Creator • Developer • Content Producer</p>
+            </div>
+
+            <!-- Bio Section -->
+            <div class="bio-section">
+                <p class="bio-text">
+                    Welcome! I'm a passionate content creator and developer dedicated to producing high-quality videos and digital solutions. 
+                    With a focus on delivering value to my audience, I create engaging content across multiple platforms. 
+                    Whether it's video production, web design, or YouTube growth strategies, I bring creativity and expertise to every project.
+                </p>
+            </div>
+
+            <!-- Service Cards -->
+            <div class="services-section">
+                <h2 class="services-title">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🎬</div>
+                        <h3>Video Production</h3>
+                        <p>High-quality video creation, editing, and post-production services. From concept to final delivery, I handle every aspect with professional expertise.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Web Design</h3>
+                        <p>Modern, responsive web design that stands out. I create beautiful, functional websites that convert visitors into customers.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">📈</div>
+                        <h3>YouTube Growth</h3>
+                        <p>Strategic growth solutions for your YouTube channel. Thumbnail design, SEO optimization, and audience engagement strategies included.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2>Ready to Work Together?</h2>
+                <p>Let's create something amazing! Choose your preferred platform to get started.</p>
+                
+                <div class="cta-buttons">
+                    <a href="https://www.fiverr.com/s/jjz5BVv" target="_blank" class="fiverr-btn">
+                        <i class="fab fa-fiverr"></i>
+                        Hire on Fiverr
+                    </a>
+                    
+                    <a href="https://discord.com/users/1369314213306044568" target="_blank" class="discord-copy-btn">
+                        <i class="fab fa-discord"></i>
+                        Contact on Discord
+                    </a>
+                </div>
+            </div>
+
+            <!-- Testimonials Section -->
+            <div class="testimonials-section">
+                <h2 class="testimonials-title">What Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Amazing video production! The quality exceeded my expectations and the turnaround was incredibly fast."</p>
+                        <p class="testimonial-author">- Alex Johnson</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Great web designer! My new website looks professional and increased my conversions by 40%."</p>
+                        <p class="testimonial-author">- Sarah Williams</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Saksham helped grow my YouTube channel from 0 to 50k subscribers in 6 months. Highly recommend!"</p>
+                        <p class="testimonial-author">- Mike Chen</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form Section -->
+            <div class="contact-section">
+                <h2>Get in Touch</h2>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="contact-name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="contact-email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contact-message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <div class="form-message" id="form-message"></div>
+                </form>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2 class="faq-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What is your typical turnaround time?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>For most projects, I deliver within 3-5 business days. Larger projects may take longer, and we can discuss timelines upfront.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do you offer revisions?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! I include unlimited revisions until you're completely satisfied with the final result.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What payment methods do you accept?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>I accept all major payment methods through Fiverr, PayPal, and bank transfers. The payment method depends on the platform you choose.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can you work with my custom requirements?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely! Every project is unique. I'm happy to discuss your specific needs and create a customized solution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" title="Back to Top">↑</button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Saksham. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.fiverr.com/s/jjz5BVv" target="_blank" title="Fiverr" class="social-link">
+                    <i class="fab fa-fiverr"></i>
+                </a>
+                <a href="https://discord.com/users/1369314213306044568" target="_blank" title="Discord" class="social-link">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://www.youtube.com/@SS_unfaced" target="_blank" title="YouTube" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

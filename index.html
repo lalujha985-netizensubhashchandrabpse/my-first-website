@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My YouTube Dashboard</title>
+    <link rel="stylesheet" href="saksham wesite/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <a id="discord-link" href="https://discord.com/users/1369314213306044568" target="_blank" class="discord-icon" title="Contact on Discord">
+        <i class="fab fa-discord"></i>
+    </a>
+
+    <a id="fiverr-link" href="https://www.fiverr.com/s/jjz5BVv" target="_blank" class="fiverr-icon" title="Hire me on Fiverr">
+        <i class="fab fa-fiverr"></i>
+    </a>
+
+    <!-- Dark Mode Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" title="Toggle Dark/Light Mode">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="nav-link active">Videos</a>
+            <a href="about.html" class="nav-link">About Me</a>
+        </div>
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+    
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner">
+        <div class="spinner"></div>
+        <p>Loading your channel...</p>
+    </div>
+    
+    <div class="container">
+        <header id="channel-header">
+            <h1 id="channel-name">Loading...</h1>
+            <p id="stats">Subscribers: -- | Videos: --</p>
+            <div class="button-container">
+                <button id="subscribe-btn" class="subscribe-btn">
+                    <span class="subscribe-icon">✓</span>
+                    <span id="subscribe-text">SUBSCRIBE</span>
+                </button>
+                <button id="channel-btn" class="channel-btn">
+                    <span class="channel-icon">▶</span>
+                    Visit Channel
+                </button>
+            </div>
+        </header>
+
+        <!-- Video Search -->
+        <div class="search-container">
+            <input type="text" id="video-search" class="video-search" placeholder="Search videos...">
+            <span class="search-icon">🔍</span>
+        </div>
+
+        <main id="video-grid">
+            </main>
+
+        <div class="see-more-container">
+            <button id="see-more-btn" class="see-more-btn">
+                <span class="see-more-text">SEE MORE VIDEOS</span>
+                <span class="see-more-arrow">▼</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" title="Back to Top">↑</button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Saksham. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.fiverr.com/s/jjz5BVv" target="_blank" title="Fiverr" class="social-link">
+                    <i class="fab fa-fiverr"></i>
+                </a>
+                <a href="https://discord.com/users/1369314213306044568" target="_blank" title="Discord" class="social-link">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://www.youtube.com/@SS_unfaced" target="_blank" title="YouTube" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
